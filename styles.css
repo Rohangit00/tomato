@@ -1,0 +1,169 @@
+body
+{
+    background-color: #ece9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0%;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 0px 10px 5px rgb(194, 192, 192);
+   
+}
+h4{
+    margin: 0;
+    padding: 0%;
+}
+.fav-meal
+{
+    display: flex;
+    justify-content:left;
+    flex-direction: column;;
+     margin: 10px 0px;
+     padding: 1px;
+     background-color: rgb(252, 245, 236) ;
+     min-height: 130px;
+    
+}
+#fav
+{
+    font-size: 15px;
+    font-weight: 900;
+    padding: 3px;
+}
+.fav-mealsul
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px 5px;
+    margin: 0%;
+   
+}
+.fav-mealsul li 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    position: relative;
+  
+}
+.fav-mealsul li span
+{
+    font-size: 12px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+.fav-mealsul li img 
+{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    padding: 2px;
+    display: flex;
+    margin-left: 6px;
+    justify-content: center
+    
+
+}
+.fav-mealsul li .clear
+{
+    background-color: rgb(252, 245, 236);
+    border: none;
+    cursor: pointer;
+    width: 10px;
+    position: absolute;
+    top: 0.5rem;
+    right: 1;
+    opacity: 0;
+}
+.fav-mealsul li:hover .clear
+{
+    opacity: 1;
+}
+img{
+    max-width: 100%;
+}
+.meal
+{
+   
+    box-shadow: 0px 0px 7px 2px grey;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    
+}
+.meal-header img
+{
+    
+    border-radius: 4px;
+}
+
+
+.mealspan
+{
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    background-color: rgb(252, 245, 236);
+    padding: 0.18rem 0.35rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+}
+.meal-body
+{
+    font-size: 15px;
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.like-button
+{
+    color: rgb(246, 205, 155);
+    font-size: 17px;
+    border: none;
+    background-color: white;
+}
+
+.like-active
+{
+    color: darkred;
+    border: none;
+    background-color: white;
+}
+
+
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+header input
+{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #FFF1DC;
+}
+header button
+{
+    border: none;
+    background-color: #EEEEEE;
+}
